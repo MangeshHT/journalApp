@@ -10,6 +10,7 @@ import java.util.Date;
 
 @Data
 @Document(collection = "journal_entries")
+@NoArgsConstructor
 public class JournalEntry {
 
     @Id
